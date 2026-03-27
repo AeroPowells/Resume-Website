@@ -1,0 +1,22 @@
+# REST Client test file (VS Code REST Client extension)
+# Run each request by clicking "Send Request" above it
+
+@base = http://localhost:8080
+
+### Health check
+GET {{base}}/api/health
+
+### Full resume
+GET {{base}}/api/resume
+
+### Bio only
+GET {{base}}/api/resume/bio
+
+### Experience
+GET {{base}}/api/resume/experience
+
+### Education
+GET {{base}}/api/resume/education
+
+### Skills
+GET {{base}}/api/resume/skills

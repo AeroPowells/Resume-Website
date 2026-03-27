@@ -1,0 +1,49 @@
+.bio {
+  background: #1e3a5f;
+  color: #f9fafb;
+  padding: 2.5rem 2rem;
+  border-radius: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.title {
+  font-size: 1.125rem;
+  color: #93c5fd;
+  margin-bottom: 1rem;
+}
+
+.summary {
+  max-width: 65ch;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+.contact {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  font-size: 0.875rem;
+  opacity: 0.85;
+  margin-bottom: 0.75rem;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
+.links a {
+  color: #93c5fd;
+  font-size: 0.875rem;
+}
+
+.state {
+  padding: 1rem;
+  color: #6b7280;
+}
